@@ -1,0 +1,33 @@
+<!-- layout.nunjucks -->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="Design projects by Dan Selden.">
+		<meta name="author" content="Dan Selden">
+		<meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+		<title>Loop | Specializing in Attachment</title>
+
+		<!-- Styles -->
+		<link rel="stylesheet" href="assets/css/app.min.css">
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-24021240-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-24021240-1');
+		</script>
+
+	</head>
+	<body class="loading">
+		<!-- You write code for this content block in another file -->
+		{# {% include "./partials/_navigation.njk" %} #}
+
+
+		{% block content %} {% endblock %}
+
+		<script src="assets/js/app.min.js"></script>
+	</body>
+</html>

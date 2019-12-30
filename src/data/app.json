@@ -1,0 +1,9 @@
+{
+  "images": [{
+    "src": "http://www.placecage.com/g/200/300",
+    "alt": "Image one alt text"
+  }, {
+    "src": "http://www.placecage.com/g/400/300",
+    "alt": "Image two alt text"
+  }]
+}
